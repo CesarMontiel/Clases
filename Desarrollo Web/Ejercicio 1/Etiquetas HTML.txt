@@ -1,0 +1,162 @@
+Presentacion etiquetas y elementos
+Etiquetas
+Headings H1...H6
+Listas ul, ol, li attributos reversed type= value= start=
+
+
+etiquetas reemplazables
+<img >
+<input >
+
+atributos
+globales class, id, hidden
+especificos src, type,width,height
+
+<bold> <strong>
+<center>
+
+HTML no tiene nada que ver con la representación
+Stylesheet User-Agent Estilos por defecto
+css reset
+
+Comentarios <!-- -->
+Estructura
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+head no renderiza / metadatos
+body es lo que muestra
+
+metadatos
+<meta chartset="utf-8">
+<meta name="viewport" content="width=devide-width">
+<title></title>
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#aaa">
+<link rel="icon" type="image/jpg" href="address">
+<meta name="description" content="mi descripción">
+<link rel="alternate" href="https://mipagina" hreflang="es-gb">
+<link rel="canonical" href="https://mipagina">
+
+Open Graph
+Conjunto de etiquetas para compartir 
+opengraph.xyz
+opengraph protocolo
+
+<style>
+body{
+background : #000;
+}
+</style>
+
+
+etiquetas agrupar
+<span> agrupar en linea
+<div> agrupar en bloque
+
+más de 100 etiquetas
+
+HTML semántico
+<div>My First Heading</div>
+    <div>My first paragraph.</div>
+    <div>
+        <div>Gustos</div>
+        <div>
+            <span>Comida favorita: Pizza</span>
+            <span>Película favorita: The Shawshank Redemption</span>
+            <div>Libro favorito: 1984 by George Orwell</div>
+            <div>Deporte favorito: Football</div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div>Estudios</div>
+            <div>
+                <div>Primaria: Escuela Primaria</div>
+                <div>Secundaria: Escuela Secundaria</div>
+                <div>Universidad: Universidad</div>
+            </div>
+            <div>
+                <div>Experiencia</div>
+                <div>
+                    <div>Estudiante de Ingeniería en Sistemas</div>
+                    <div>Desarrollador de Software</div>
+                    <div>Investigador</div>
+                    <div>www.imt.mx</div>
+                </div>
+            </div>
+            <div>
+                <div>Proyectos</div>
+                <div>
+                    <div>Proyecto 1</div>
+                    <div>Proyecto 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<main>
+<article>
+<section>
+<nav>
+<a href="">
+#estudios <-enlaces internos
+www.gogole.com <- enlaces externos <- para evitar que se vaya <a target="_blank" href="" ref="noreferrer">
+contenido que cambia en cada url
+
+<button>
+<div role="">
+
+<a href="mailto:cmontielmoctezuma@gmail.com">Correo</>
+<a href="tel:+11111111111111">Correo</>
+<a href="whatsapp://send?text=hola&tel=11111111">Correo</>
+<a download> solo para recursos del propio dominio</>
+
+formulario
+<form method="" action="/">
+<fieldset> <lengend>Mi info</legend>
+<label for="name">Nombre</>  //Envolver el input
+<input type="text" id="name" name="name" placeholder="Cesar">
+<input type="tel" id="name" name="name" placeholder="Cesar" required patter="">
+<fieldset>
+<legend>Información adicional</>
+<input type="submit" value"Enviar contacto">
+<div>
+<datalist id="iden">
+<option value="valor1"></>
+</>
+<input list="iden" name="languages">
+</form>
+
+<section><h1>Preguntas Frecuentes</>
+<details open>
+<summary>¿Estudios?</>
+<p>mi pregunta</>
+</>
+
+<iframes>
+
+
+<dialog>
+<h1>
+<p>
+<button>ver info</>
+</dialog>
+
+<script>
+Windows.miboton.addeventlistener('click',()=>{
+	window.dialog.showModal();
+})
+</>
+
+
+20 - > lo van a perder con las preguntas que les hagan
+Lunes -> css -> básico -> Jacs
+Miercoles -> framework css tailwind -> fer
+Lunes -> javascript -> leo ->fetch
+Miercoles -> framework javascript -> next.js -> alejandro
