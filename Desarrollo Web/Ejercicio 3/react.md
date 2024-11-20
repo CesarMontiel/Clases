@@ -52,3 +52,11 @@ Arquitectura de Frontend optimizar el renderizado de las paginas con buen SEO
 React VirtualDOM
 
 
+
+https://www.devjobsscanner.com/blog/the-most-demanded-frontend-frameworks/
+
+https://npmtrends.com/angular-vs-nextjs-vs-react-vs-vue
+
+https://codi.link/%7C%7C
+
+
