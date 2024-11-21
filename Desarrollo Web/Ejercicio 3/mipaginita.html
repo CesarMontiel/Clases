@@ -11,14 +11,13 @@
         h1 {
             color: blue;
         }
-
     </style>
 </head>
 
 <body>
     <h1 style="text-align: center;">Este es un formulario para la clase de <span style="color: red;">Desarrollo
             Web</span> </h1>
-    <form style="color: rgb(190, 25, 27);" class="form" id="form" >
+    <form style="color: rgb(190, 25, 27);" class="form" id="form">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
 
@@ -30,6 +29,15 @@
 
         <input type="submit" value="Enviar">
     </form>
+    <script>
+        document.getElementById("form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var nombre = document.getElementById("nombre").value;
+            var email = document.getElementById("email").value;
+            var mensaje = document.getElementById("mensaje").value;
+            alert("Nombre: " + nombre + "\nEmail: " + email + "\nMensaje: " + mensaje);
+        });
+    </script>
 </body>
 
 </html>
