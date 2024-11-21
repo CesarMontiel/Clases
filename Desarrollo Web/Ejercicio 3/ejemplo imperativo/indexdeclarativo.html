@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Declarativo</title>
+    <style>
+        button {
+            background: #09f;
+            color: #fff;
+            border: 3;
+            cursor: pointer;
+            padding: 4px 8px;
+            font-size: 18px;
+        }
+
+        body {
+            background: #222;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+    </div>
+    <script>
+        import React from 'https://esm.sh/react@18.2.0'
+        import ReactDOM from 'https://esm.sh/react-dom@18.2.0/client'
+
+        const appDomElement = document.getElementById('app')
+
+        const root = ReactDOM.createRoot(appDomElement)
+
+        const button1 = React.createElement('button', { 'data-id': 123 }, 'Button1')
+        const button2 = React.createElement('button', { 'data-id': 123 }, 'Button2')
+        const button3 = React.createElement('button', { 'data-id': 123 }, 'Button3')
+        const div = React.createElement('div', null, [button1, button2, button3])
+
+        root.render(div)
+    </script>
+</body>
+
+
+</html>
