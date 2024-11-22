@@ -60,3 +60,39 @@ https://npmtrends.com/angular-vs-nextjs-vs-react-vs-vue
 https://codi.link/%7C%7C
 
 
+SWC o Babel
+Transpiladores 
+se escribe javascript y lo transforma
+
+Nextjs - Webpack
+
+Webpack es un empaquetador para Javascript, html y css
+
+Expresiones JSX 
+const element = <strong> Numero aleatorio {Math.random} </strong>
+
+camelcase para atributos
+
+evita inyeccion de codigo 
+
+create react app
+vite
+nextjs
+
+
+npm create vite@latest
+
+Componentes
+Pascalcase
+
+
+
+https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&ab_channel=midulive
+https://www.youtube.com/watch?v=GMnWXlJnbNo&ab_channel=GentlemanProgramming
+
+
+
+
+
+
+
