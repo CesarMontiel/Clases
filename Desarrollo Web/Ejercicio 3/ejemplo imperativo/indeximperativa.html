@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <button data-id="123">Haz clic aquí</button>
+    <button data-id="123" hidden></button>
 </body>
 
 <script>
@@ -30,9 +30,6 @@
 
     button.addEventListener('click', function () {
         const id = button.getAttribute('data-id')
-
-        //llamar a un servicio para actualizar si me gusta 
-        //toogleLike(id)
 
         if (button.classList.contains('liked')) {
             button.classList.remove('liked')
